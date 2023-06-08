@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #8a51fc;
+}
+
+.img-logo {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+main {
+  width: 375px;
+  height: 712px;
+  background: rgba(224, 255, 255);
+  border-radius: 20px;
+  margin: 0 auto 40px;
+}
+
+.input-convert {
+  width: 327px;
+  padding-top: 44px;
+}
+
+.input-para, .input-convert {
+  width: 327px;
+  margin-top: 24px;
+}
+
+.input-value {
+  width: 327px;
+  margin-top: 24px;
+}
+
+input,select {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+  margin-left: 24px;
+  margin-top: 6px;
+  padding-left: 17px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+ label {
+  order: -1;
+  margin-left: 24px;
+}
+
+.dark-placeholder::placeholder {
+  color: #555555;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+label {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  margin-left: 24px;
+}
+
+.img-brasil {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-left: 139px;
+  margin-right: 144px;
+  background-color: transparent;
+  margin-top: 12px;
+}
+
+.img-arrow {
+  width: 35px;
+  height: 49px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-left: 144px;
+  margin-right: 144px;
+  background-color: transparent;
+}
+
+.img-united {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-left: 139px;
+  margin-right: 144px;
+  background-color: transparent;
+}
+
+button {
+  width: 327px;
+  height: 48px;
+  background: #772fd3;
+  border-radius: 5px;
+  margin: 23px 24px 36px 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+.son {
+  width: 327px;
+  margin: 0 auto;
+  border: 1px solid #158560;
+  border-radius: 20px;
+  margin-bottom: 23px;
+}
+
+p {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.p-real,.p-money-convert {
+  color: #555555;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  height: 18px;
+  left: 129px;
+  top: 658px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+
+select {
+  appearance: none;
+  color: #555555;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  padding: 15px 0 15px 17px;
+  font-weight: 700;
+  font-size: 20px;
+}
